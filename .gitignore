@@ -1,0 +1,27 @@
+# dataset - never commit, 2.9 GB and unclear licence
+data/
+*.duckdb
+*.duckdb.wal
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# node
+web/node_modules/
+web/dist/
+
+# os
+.DS_Store
+
+# editor backups
+*.bak
+
+# personal notes, not for the repo
+notes/
+
+# one-off helper, not part of the project
+setup_git.sh
