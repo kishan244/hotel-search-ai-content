@@ -6,7 +6,7 @@ import {
 import DescriptionBrowser from "./components/DescriptionBrowser.jsx"
 
 // repo this page belongs to
-const REPO = "https://github.com/kishan244/hotel-search-analysis"
+const REPO = "https://github.com/kishan244/hotel-search-ai-content"
 
 const fmt = (n) => n.toLocaleString("en-GB")
 const at = (p) => data.position.find((d) => d.position === p)?.ctr ?? 0
